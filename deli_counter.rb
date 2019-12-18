@@ -3,6 +3,7 @@ def line(katz_deli)
   string = "The linen is currently:"
   katz_deli.each_with_index do |name, index|
     string << "#{index+1}. #{name}"
-    
+  end
+  return string
     
 end
