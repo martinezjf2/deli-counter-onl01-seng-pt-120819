@@ -61,7 +61,7 @@ describe 'Deli Counter' do
     context "there are people in line" do
       it "should serve the first person in line and remove them from the queue" do
         now_serving(other_deli)
-        expect(other_deli).to eq(%w(Avi Spencer))
+expect(other_deli).to eq(%w(Avi Spencer))
       end
     end
   end
